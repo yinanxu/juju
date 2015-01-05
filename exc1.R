@@ -12,3 +12,4 @@ boot<-numeric(200)
 for (i in 1:200) boot[i] <- CV(sample(x,replace=T))
 mean(boot)
 x<-c(2,3,4,5,6,7)
+yoyo check now, jiang bing guo zi lai yi tao
